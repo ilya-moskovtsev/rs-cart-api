@@ -1,0 +1,12 @@
+.git
+.vscode
+.idea
+*.md
+
+# Secrets
+.env
+
+# Node Files
+node_modules
+npm-debug.log
+npm-debug.log.*
