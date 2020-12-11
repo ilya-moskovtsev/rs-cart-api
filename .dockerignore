@@ -10,3 +10,6 @@
 node_modules
 npm-debug.log
 npm-debug.log.*
+
+# distribution - minified/concatenated version used on production
+dist
