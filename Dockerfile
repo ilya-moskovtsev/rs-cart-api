@@ -23,7 +23,7 @@ WORKDIR /app
 COPY --from=dependencies /app/package.json ./
 # Install app dependencies
 RUN npm install --only=production
-COPY --from=build /app ./
+COPY --from=build /app/dist ./dist
 
 USER node
 EXPOSE 4000
